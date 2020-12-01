@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-
+import LayoutQuiz from '../components/layout/LayoutQuiz.jsx'
+import NavbarQuiz from '../components/layout/NavbarQuiz.jsx'
 const Question1 = () => {
     return (
         <>
-            <h2>question1</h2>
-            <br />
-            <button type="button" class="btn btn-danger">Danger</button>
+            <NavbarQuiz />
+            <LayoutQuiz />
+
         </>
     )
 }

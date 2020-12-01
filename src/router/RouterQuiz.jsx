@@ -46,7 +46,7 @@ export default function RouterQuiz() {
         */}
                 <Switch>
                     <Route path="/">
-                        <NavbarQuiz />
+                        <Question1 />
                     </Route>
                     <Route path="/navbar">
                         <NavbarQuiz />
