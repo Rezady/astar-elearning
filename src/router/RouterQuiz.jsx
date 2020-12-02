@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Question1 from '../views/Question1.jsx';
 import Question2 from '../views/Question2.jsx';
-import LayoutQuiz from '../components/layout/LayoutQuiz.jsx';
+import SidebarQuiz from '../components/layout/SidebarQuiz.jsx';
 import NavbarQuiz from '../components/layout/NavbarQuiz.jsx';
 import '../assets/css/router.css';
 

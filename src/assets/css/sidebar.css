@@ -1,76 +1,73 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
-
-body {
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+.fa {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
 }
 
-/* Toggle Styles */
+/*
+   * Sidebar
+   */
 
-#viewport {
-    padding-left: 250px;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-#content {
-    width: 100%;
-    position: relative;
-    margin-right: 0;
-}
-
-/* Sidebar Styles */
-
-#sidebar {
-    z-index: 1000;
+.sidebar {
     position: fixed;
-    left: 250px;
-    width: 250px;
-    height: 100%;
-    margin-left: -250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 48px 0 0;
+    /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 5rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
     overflow-y: auto;
-    background: #37474F;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    /* Scrollable contents if viewport is shorter than content. */
 }
 
-#sidebar header {
-    background-color: #263238;
-    font-size: 20px;
-    line-height: 52px;
-    text-align: center;
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
 }
 
-#sidebar header a {
-    color: #fff;
-    display: block;
-    text-decoration: none;
+.nav-link {
+    text-align: left;
 }
 
-#sidebar header a:hover {
-    color: #fff;
+.sidebar .nav-link {
+    font-weight: 100;
+    color: #333;
 }
 
-#sidebar .nav {}
+.sidebar .nav-link .fa {
+    margin-right: 4px;
+    color: #999;
 
-#sidebar .nav a {
-    background: none;
-    border-bottom: 1px solid #455A64;
-    color: #CFD8DC;
-    font-size: 14px;
-    padding: 16px 24px;
 }
 
-#sidebar .nav a:hover {
-    background: none;
-    color: #ECEFF1;
+.sidebar .nav-link.active {
+    color: #007bff;
 }
 
-#sidebar .nav a i {
-    margin-right: 16px;
+.sidebar .nav-link:hover .fa,
+.sidebar .nav-link.active .fa {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
 }

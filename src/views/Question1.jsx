@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import LayoutQuiz from '../components/layout/LayoutQuiz.jsx'
+import SidebarQuiz from '../components/layout/SidebarQuiz.jsx'
 import NavbarQuiz from '../components/layout/NavbarQuiz.jsx'
+import '../assets/css/navbar.css';
+import '../assets/css/sidebar.css';
+
 const Question1 = () => {
     return (
         <>
             <NavbarQuiz />
-            <LayoutQuiz />
+            <SidebarQuiz />
 
         </>
     )

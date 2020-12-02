@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 import './index.css';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
