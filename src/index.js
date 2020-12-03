@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { createStore } from 'redux';
+// import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import registerServiceWorker from './registerServiceWorker';
+import reducer from './reducer/reducer';
+
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import './index.css';
+
 
 
 ReactDOM.render(

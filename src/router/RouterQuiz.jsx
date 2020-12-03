@@ -7,8 +7,10 @@ import {
 } from "react-router-dom";
 import Question1 from '../views/Question1.jsx';
 import Question2 from '../views/Question2.jsx';
-import SidebarQuiz from '../components/layout/SidebarQuiz.jsx';
-import NavbarQuiz from '../components/layout/NavbarQuiz.jsx';
+import Question3 from '../views/Question3.jsx';
+import Question4 from '../views/Question4.jsx';
+import Question5 from '../views/Question5.jsx';
+import Test from '../views/test.jsx';
 import '../assets/css/router.css';
 
 // This site has 3 pages, all of which are rendered
@@ -22,6 +24,7 @@ import '../assets/css/router.css';
 
 export default function RouterQuiz() {
     return (
+
         <Router>
             <div id="apps">
                 <div id="nav">
@@ -30,10 +33,19 @@ export default function RouterQuiz() {
                             <Link to="/"></Link>
                         </li>
                         <li>
-                            <Link to="/navbar"></Link>
+                            <Link to="/question1"></Link>
                         </li>
                         <li>
                             <Link to="/question2"></Link>
+                        </li>
+                        <li>
+                            <Link to="/question3"></Link>
+                        </li>
+                        <li>
+                            <Link to="/question4"></Link>
+                        </li>
+                        <li>
+                            <Link to="/question5"></Link>
                         </li>
                     </ul>
                 </div>
@@ -45,18 +57,16 @@ export default function RouterQuiz() {
           of them to render at a time
         */}
                 <Switch>
-                    <Route path="/">
-                        <Question1 />
-                    </Route>
-                    <Route path="/navbar">
-                        <NavbarQuiz />
-                    </Route>
-                    <Route path="/question2">
-                        <Question2 />
-                    </Route>
+                    <Route exact path="/" component={Test} />
+                    <Route exact path="/question1" component={Question1} />
+                    <Route exact path="/question2" component={Question2} />
+                    <Route exact path="/question3" component={Question3} />
+                    <Route exact path="/question4" component={Question4} />
+                    <Route exact path="/question5" component={Question5} />
                 </Switch>
             </div>
         </Router>
+
     );
 }
 

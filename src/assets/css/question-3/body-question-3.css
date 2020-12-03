@@ -1,0 +1,45 @@
+.card {
+    top: 7.5%;
+    height: 70%;
+    width: 60%;
+
+}
+
+#body-question-1 {
+    background-color: #fdd67d;
+}
+
+.card-img-top {
+    height: 50%;
+    width: 100%;
+}
+
+.card-title {
+    color: black;
+    font-family: Georgia;
+
+}
+
+.button-answer {
+    height: 30%;
+}
+
+.btn {
+    width: 40%;
+    margin: 2.5% 5%;
+    border: none;
+    padding: 50px;
+}
+
+@media screen and (max-width: 350px) {
+    h3.card-title {
+        font-size: 10px;
+    }
+
+    /* .btn {
+        width: 40%;
+        margin: 2.5% 5%;
+        height: 30%;
+    } */
+
+}

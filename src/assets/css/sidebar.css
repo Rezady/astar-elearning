@@ -15,7 +15,7 @@
     left: 0;
     z-index: 100;
     /* Behind the navbar */
-    padding: 48px 0 0;
+    padding: 10px 0 0;
     /* Height of navbar */
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
@@ -48,7 +48,7 @@
 }
 
 .sidebar .nav-link {
-    font-weight: 100;
+    font-weight: 50;
     color: #333;
 }
 
