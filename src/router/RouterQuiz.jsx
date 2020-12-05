@@ -32,7 +32,7 @@ export default function RouterQuiz() {
             main: () => <BodyQuestion1 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question2",
+            path: "/astar-elearning/question2",
             exact: true,
             main: () => <BodyQuestion2 onClick={valueProps => set(value + valueProps)} />
         },
