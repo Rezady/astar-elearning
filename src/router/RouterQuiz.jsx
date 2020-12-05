@@ -27,47 +27,47 @@ export default function RouterQuiz() {
     console.log('pointrouter: ', point)
     const routes = [
         {
-            path: "/",
+            path: "/astar-elearning",
             exact: true,
             main: () => <BodyQuestion1 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question2",
+            path: "/astar-elearning/question2",
             exact: true,
             main: () => <BodyQuestion2 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question3",
+            path: "/astar-elearning/question3",
             exact: true,
             main: () => <BodyQuestion3 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question4",
+            path: "/astar-elearning/question4",
             exact: true,
             main: () => <BodyQuestion4 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question5",
+            path: "/astar-elearning/question5",
             exact: true,
             main: () => <BodyQuestion5 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question6",
+            path: "/astar-elearning/question6",
             exact: true,
             main: () => <BodyQuestion6 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question7",
+            path: "/astar-elearning/question7",
             exact: true,
             main: () => <BodyQuestion7 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/question8",
+            path: "/astar-elearning/question8",
             exact: true,
             main: () => <BodyQuestion8 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/result",
+            path: "/astar-elearning/result",
             exact: true,
             main: () => <FinalResult result={value} />
         },

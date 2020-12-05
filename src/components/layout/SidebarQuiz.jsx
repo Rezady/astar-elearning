@@ -11,7 +11,7 @@ const SidebarQuiz = (props) => {
                     <div className="sidebar-sticky pt-3">
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">
+                                <a className="nav-link" href="#">
                                     <i class="fa fa-question-circle" aria-hidden="true"></i>
                                     Question 1
                                 </a>
@@ -42,8 +42,20 @@ const SidebarQuiz = (props) => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <i class="fa fa-question-circle text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
                                     Question 6
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    Question 7
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    Question 8
                                 </a>
                             </li>
                         </ul>
