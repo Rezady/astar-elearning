@@ -32,43 +32,43 @@ export default function RouterQuiz() {
             main: () => <BodyQuestion1 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question2",
-            exact: true,
+            path: "/question2",
+
             main: () => <BodyQuestion2 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question3",
-            exact: true,
+
             main: () => <BodyQuestion3 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question4",
-            exact: true,
+
             main: () => <BodyQuestion4 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question5",
-            exact: true,
+
             main: () => <BodyQuestion5 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question6",
-            exact: true,
+
             main: () => <BodyQuestion6 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question7",
-            exact: true,
+
             main: () => <BodyQuestion7 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/question8",
-            exact: true,
+
             main: () => <BodyQuestion8 onClick={valueProps => set(value + valueProps)} />
         },
         {
             path: "/result",
-            exact: true,
+
             main: () => <FinalResult result={value} />
         },
     ]
