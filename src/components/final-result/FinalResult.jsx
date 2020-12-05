@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 const FinalResult = (props) => {
+
     return (
 
         <div div class="card mx-auto align-middle border-light d-flex" id="body-question-1" >
