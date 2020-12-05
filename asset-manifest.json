@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/astar-elearning/static/css/main.b2955a90.chunk.css",
-    "main.js": "/astar-elearning/static/js/main.7712e2ea.chunk.js",
-    "main.js.map": "/astar-elearning/static/js/main.7712e2ea.chunk.js.map",
+    "main.js": "/astar-elearning/static/js/main.3177b63d.chunk.js",
+    "main.js.map": "/astar-elearning/static/js/main.3177b63d.chunk.js.map",
     "runtime-main.js": "/astar-elearning/static/js/runtime-main.cdb9a58f.js",
     "runtime-main.js.map": "/astar-elearning/static/js/runtime-main.cdb9a58f.js.map",
     "static/css/2.43b2b750.chunk.css": "/astar-elearning/static/css/2.43b2b750.chunk.css",
-    "static/js/2.4ce12846.chunk.js": "/astar-elearning/static/js/2.4ce12846.chunk.js",
-    "static/js/2.4ce12846.chunk.js.map": "/astar-elearning/static/js/2.4ce12846.chunk.js.map",
+    "static/js/2.3f968357.chunk.js": "/astar-elearning/static/js/2.3f968357.chunk.js",
+    "static/js/2.3f968357.chunk.js.map": "/astar-elearning/static/js/2.3f968357.chunk.js.map",
     "static/js/3.11424015.chunk.js": "/astar-elearning/static/js/3.11424015.chunk.js",
     "static/js/3.11424015.chunk.js.map": "/astar-elearning/static/js/3.11424015.chunk.js.map",
     "index.html": "/astar-elearning/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/astar-elearning/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.b2955a90.chunk.css.map": "/astar-elearning/static/css/main.b2955a90.chunk.css.map",
-    "static/js/2.4ce12846.chunk.js.LICENSE.txt": "/astar-elearning/static/js/2.4ce12846.chunk.js.LICENSE.txt",
+    "static/js/2.3f968357.chunk.js.LICENSE.txt": "/astar-elearning/static/js/2.3f968357.chunk.js.LICENSE.txt",
     "static/media/index.css": "/astar-elearning/static/media/background.ee94621e.jpg",
     "static/media/question-1-images.a8b84bd7.png": "/astar-elearning/static/media/question-1-images.a8b84bd7.png",
     "static/media/question-2-images.c5780857.png": "/astar-elearning/static/media/question-2-images.c5780857.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.cdb9a58f.js",
     "static/css/2.43b2b750.chunk.css",
-    "static/js/2.4ce12846.chunk.js",
+    "static/js/2.3f968357.chunk.js",
     "static/css/main.b2955a90.chunk.css",
-    "static/js/main.7712e2ea.chunk.js"
+    "static/js/main.3177b63d.chunk.js"
   ]
 }
