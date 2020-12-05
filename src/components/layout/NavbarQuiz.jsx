@@ -1,8 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
-// import '../../assets/css/navbar.css';
-// import '../../assets/css/sidebar.css';
-
+import React from 'react';
 
 const NavbarQuiz = () => {
     return (
