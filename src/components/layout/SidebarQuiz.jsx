@@ -1,17 +1,13 @@
-import React, { useState } from 'react';
-// import BodyQuestion5 from '../question-5/BodyQuestion5.jsx';
-import RouterQuiz from '../../router/RouterQuiz.jsx';
-// import '../../assets/css/sidebar.css'
-// import '../../assets/css/navbar.css';
+import React from 'react';
 
 const SidebarQuiz = (props) => {
-
 
     return (
 
         < div className="container-fluid" >
             <div className="row">
                 <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    {console.log('sidebar')}
                     <div className="sidebar-sticky pt-3">
                         <ul className="nav flex-column">
                             <li className="nav-item">
@@ -52,42 +48,17 @@ const SidebarQuiz = (props) => {
                             </li>
                         </ul>
 
-                        <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                            <span>Additional</span>
-                            <a className="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
-                                <span data-feather="plus-circle"></span>
-                            </a>
-                        </h6>
-                        <ul className="nav flex-column mb-2">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Other
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Other
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Other
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <span data-feather="file-text"></span>
-                                    Other
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </nav>
 
-                {props.children}
+                <main role="main d-flex" className="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                    <div className="d-flex justify-content-between flex-wrap flex-md-nowrap 
+                        align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 className="h2 text-center">Question</h1>
+                        <h3 className="float-xl-right" id="pointBoard">point: {props.point}</h3>
+                    </div>
+                    {props.children}
+                </main>
 
             </div>
         </ div>

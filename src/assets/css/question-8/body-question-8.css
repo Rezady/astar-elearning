@@ -2,6 +2,7 @@
     top: 7.5%;
     height: 70%;
     width: 60%;
+
 }
 
 #body-question-1 {
@@ -16,16 +17,21 @@
 .card-title {
     color: black;
     font-family: Georgia;
+
 }
 
 .button-answer {
     height: 30%;
+    width: 30%;
+    margin-left: 35%;
 }
+
 
 .btn {
     width: 40%;
     margin: 2.5% 5%;
     border: none;
+    padding: 50px;
 }
 
 @media screen and (max-width: 350px) {
