@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
@@ -27,47 +27,47 @@ export default function RouterQuiz() {
     console.log('pointrouter: ', point)
     const routes = [
         {
-            path: "/astar-elearning",
+            path: "/",
             exact: true,
             main: () => <BodyQuestion1 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question2",
+            path: "/question2",
             exact: true,
             main: () => <BodyQuestion2 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question3",
+            path: "/question3",
             exact: true,
             main: () => <BodyQuestion3 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question4",
+            path: "/question4",
             exact: true,
             main: () => <BodyQuestion4 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question5",
+            path: "/question5",
             exact: true,
             main: () => <BodyQuestion5 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question6",
+            path: "/question6",
             exact: true,
             main: () => <BodyQuestion6 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question7",
+            path: "/question7",
             exact: true,
             main: () => <BodyQuestion7 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/question8",
+            path: "/question8",
             exact: true,
             main: () => <BodyQuestion8 onClick={valueProps => set(value + valueProps)} />
         },
         {
-            path: "/astar-elearning/result",
+            path: "/result",
             exact: true,
             main: () => <FinalResult result={value} />
         },
@@ -79,7 +79,7 @@ export default function RouterQuiz() {
             {() => set(0)}
             <NavbarQuiz />
             <SidebarQuiz point={value === null ? '0' : value} >
-                <Router>
+                <Router basename="/">
                     <Switch>
                         {routes.map((route, index) => (
                             <Route
